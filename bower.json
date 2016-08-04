@@ -1,6 +1,6 @@
 {
   "name": "seed-element",
-  "version": "1.0.7",
+  "version": "1.0.0",
   "authors": [
     "Anonymous <anonymous@example.com>"
   ],
@@ -10,15 +10,18 @@
     "polymer",
     "seed"
   ],
+  "private": true,
   "main": "seed-element.html",
-  "license": "http://polymer.github.io/LICENSE.txt",
-  "homepage": "https://github.com/<USERNAME>/seed-element/",
+  "license": "MIT",
+  "homepage": "https://github.com/FortifiElements/seed-element/",
   "ignore": [
     "/.*",
-    "/test/"
+    "/test/",
+    "/bower_components/",
+    "/node_modules/"
   ],
   "dependencies": {
-    "polymer": "Polymer/polymer#^1.2.0"
+    "polymer": "Polymer/polymer#^1.6.0"
   },
   "devDependencies": {
     "iron-component-page": "PolymerElements/iron-component-page#^1.0.0",

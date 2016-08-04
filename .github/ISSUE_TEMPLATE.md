@@ -1,6 +1,5 @@
-<!-- Instructions: https://github.com/PolymerElements/seed-element/CONTRIBUTING.md#filing-issues -->
 ### Description
-<!-- Example: The `paper-foo` element causes the page to turn pink when clicked. -->
+<!-- Example: The `fort-foo` element causes the page to turn pink when clicked. -->
 
 ### Expected outcome
 
@@ -16,9 +15,9 @@
 ### Steps to reproduce
 
 <!-- Example
-1. Put a `paper-foo` element in the page.
+1. Put a `fort-foo` element in the page.
 2. Open the page in a web browser.
-3. Click the `paper-foo` element.
+3. Click the `fort-foo` element.
 -->
 
 ### Browsers Affected
@@ -27,7 +26,5 @@
 - [ ] Firefox
 - [ ] Safari 9
 - [ ] Safari 8
-- [ ] Safari 7
 - [ ] Edge
 - [ ] IE 11
-- [ ] IE 10
