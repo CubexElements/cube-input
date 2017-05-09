@@ -15,7 +15,8 @@ Example:
 <dom-module id="cube-input">
   <template>
     <paper-input
-      id="baseInput"
+      id="input"
+      value="{{value}}"
       no-label-float="[[noLabelFloat]]"
       placeholder="[[placeholder]]"
       auto-validate="[[autoValidate]]"
@@ -67,7 +68,7 @@ Example:
         attached: function ()
                   {
                     var self = this, errMsg = this.errorMessage;
-                    this.$.baseInput.addEventListener(
+                    this.$.input.addEventListener(
                       'bind-value-changed',
                       function () { self.errorMessage = errMsg; }
                     );
