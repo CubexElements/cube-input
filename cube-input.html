@@ -80,6 +80,15 @@ Example:
                              this.invalid = true;
                            },
 
+        /**
+         * Returns a reference to the focusable element. Overridden from PaperInputBehavior
+         * to correctly focus the native input.
+         */
+        get _focusableElement()
+        {
+          return Polymer.Element ? this.inputElement._inputElement : this.inputElement;
+        },
+
         behaviors: [
           Polymer.PaperInputBehavior,
           Polymer.IronFormElementBehavior
