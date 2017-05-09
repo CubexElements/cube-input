@@ -1,5 +1,5 @@
 {
-  "name": "seed-element",
+  "name": "cube-input",
   "version": "1.0.0",
   "authors": [
     "Anonymous <anonymous@example.com>"
@@ -11,9 +11,9 @@
     "seed"
   ],
   "private": true,
-  "main": "seed-element.html",
+  "main": "cube-input.html",
   "license": "MIT",
-  "homepage": "https://github.com/FortifiElements/seed-element/",
+  "homepage": "https://github.com/FortifiElements/cube-input/",
   "ignore": [
     "/.*",
     "/test/",
@@ -21,14 +21,11 @@
     "/node_modules/"
   ],
   "dependencies": {
-    "polymer": "Polymer/polymer#2.0-preview"
+    "polymer": "Polymer/polymer#~2.0.0",
+    "paper-input": "PolymerElements/paper-input#2.0-preview"
   },
   "devDependencies": {
     "iron-component-page": "PolymerElements/iron-component-page#2.0-preview",
-    "web-component-tester": "^5.0.0"
-  },
-  "resolutions": {
-    "polymer": "2.0-preview",
-    "webcomponentsjs": "v1"
+    "web-component-tester": "^6.0.0"
   }
 }
